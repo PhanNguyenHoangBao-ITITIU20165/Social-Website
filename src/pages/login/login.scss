@@ -9,10 +9,12 @@
         display: flex;
         background-color: white;
         border-radius: 10px;
+        min-height: 600px;
 
         .left{
             flex: 1;
-            background: url("");
+            background: url("./login.png");
+            background-size: cover;
             h1{
 
             }
