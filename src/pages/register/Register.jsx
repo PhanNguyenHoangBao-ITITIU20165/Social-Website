@@ -5,7 +5,7 @@ const Register = () => {
         <div className="register">
             <div className="card">
                 <div className="left">
-                    <h1>Hello World</h1>
+                    <h1>HoangBao Social</h1>
                     <p>Welcome to my social media website</p>
                     <span>Do you have an account</span>
                     <button>Login</button>
