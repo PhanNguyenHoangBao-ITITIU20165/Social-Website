@@ -1,10 +1,11 @@
-import LeftBar from "./components/leftBar/LeftBar";
+
 import Login from "./pages/login/Login"
 import Register from "./pages/register/Register";
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
+  Outlet,
 } from "react-router-dom";
 import NavBar from "./components/navBar/NavBar";
 import LeftBar from "./components/leftBar/LeftBar";
@@ -20,7 +21,7 @@ function App() {
         <NavBar/>
         <div style={{display:"flex"}}>
           <LeftBar/>
-          <Outlet/>
+          <Outlet />
           <RightBar/>
         </div>
       </div>
